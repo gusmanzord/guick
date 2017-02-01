@@ -39,6 +39,12 @@
                             controllerAs: 'vm',
                             templateUrl: "layout/prototipo/slick.html"
                         })
+             .state('misc', {
+                                        url: "/misc",
+                                        controller: 'MiscController',
+                                        controllerAs: 'vm',
+                                        templateUrl: "layout/prototipo/misc.html"
+                                    })
         ;
 
     ##TODO: Nao encontra o arquivo com essa linha. Investigar outra solucao

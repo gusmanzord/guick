@@ -11,7 +11,10 @@
                 </accordion-heading>
                 <a href="#/cards" class="ng-binding"><i class="mdi mdi-view-grid"></i> Cards</a>
                 <a href="#/book" class="ng-binding"><i class="mdi mdi-book"></i>Book</a>
-                <a href="#/slick" class="ng-binding"><i class="mdi mdi-book"></i>Slick</a>
+                <a href="#/slick" class="ng-binding"><i class="mdi mdi-
+                "></i>Slick</a>
+                 <a href="#/misc" class="ng-binding"><i class="mdi mdi-
+                                "></i>Misc</a>
             </accordion-group>
         </accordion>
         <div class="panel panel-default ng-scope">

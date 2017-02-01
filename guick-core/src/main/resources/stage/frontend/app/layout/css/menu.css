@@ -23,6 +23,7 @@
 .menu .panel-default > .panel-heading:hover
     {
         background-color: #016fb0;
+        box-shadow:1px 1px 100px rgba(0, 0, 0, 0.4) inset;
 
     }
 .menu .panel.panel-default
@@ -34,9 +35,9 @@
     }
 .menu .panel-default > .panel-heading + .panel-collapse > .panel-body
     {
-        background:#0364a5;
+        /*background:#0364a5;*/
         border: 0;
-        box-shadow:-60px 0px 60px rgba(0,0,0,0.2) inset, 30px 0px 35px #0277bd inset, 0px 1px 35px rgba(0,0,0,0.5) inset, 15px 0px 25px #024c77 inset;
+        box-shadow:-60px 0px 300px rgba(0,0,0,0.2) inset, 30px 0px 35px #0277bd inset, 0px 1px 35px rgba(0,0,0,0.5) inset, 15px 0px 25px #024c77 inset;
     }
 .menu .panel-default > .panel-heading + .panel-collapse > .panel-body a
     {
@@ -61,6 +62,7 @@
         text-shadow: 0px 1px 1px #000;
         transform:translatex(3px);
         text-shadow:none;
+
     }
 .menu .panel-default > .panel-heading + .panel-collapse > .panel-body a:focus
     {
@@ -136,15 +138,16 @@
     }
 .content-logout-page
     {
-    width: 80%;
-    height: 96%;
-    position: fixed;
-    padding: 5%;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 9999;
-    transform: translate(125%, 0);
-    transition: 1s;
-    -webkit-transition: 1s;
+        width: 80%;
+        height: 96%;
+        position: fixed;
+        padding: 5%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 9999;
+        transform: translate(125%, 0);
+        transition: 1s;
+        -webkit-transition: 1s;
+        box-shadow:1px 1px 500px #000 inset;
     }
 .content-logout-page.stash
     {
@@ -152,16 +155,17 @@
     }
     .content-logout
     {
-    width: 20%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    padding:5%;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 999;
-    transform:translate(0, -100%);
-    transition:1s;
-    -webkit-transition:1s;
+        width: 20%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        padding:5%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 999;
+        transform:translate(0, -100%);
+        transition:1s;
+        -webkit-transition:1s;
+        box-shadow:1px 1px 200px #000 inset;
     }
 .content-logout.stash
     {
